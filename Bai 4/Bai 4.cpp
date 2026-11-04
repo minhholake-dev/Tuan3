@@ -2,7 +2,7 @@
 #include <WiFi.h>
 #include <WebServer.h>
 WebServer server(80);
-const int LED_PIN = 2;
+const int LED_PIN = 22;
 bool pressORbepressed = false;
 
 void handleRoot() {

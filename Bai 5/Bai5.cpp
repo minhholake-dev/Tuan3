@@ -13,7 +13,7 @@ const char* clientId = "nhom06-kit1";  // Change for kit 2
 const char* topic = "bica/tuan3/nhom-06";
 const char* ledTopic = "bica/tuan3/nhom-06/led";
 
-const int LED_PIN = 2;
+const int LED_PIN = 22;
 int dem = 0;
 unsigned long lastSend = 0;
 
